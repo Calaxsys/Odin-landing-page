@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
@@ -12,8 +13,13 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
     padding: 24px;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
