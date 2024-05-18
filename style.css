@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+
 }
 
 body {
@@ -113,6 +113,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
+    padding: 16px;
 }
 
 .quote-txt {
@@ -134,4 +135,38 @@ ul {
 .cta-container {
     display: flex;
     justify-content: space-between;
+    margin: 48px;
+    padding: 32px;
+    background-color: #3882F6;
+}
+
+.cta-left {
+    margin-left: 48px;
+}
+
+.cta-btn {
+    margin-right: 48px;
+    border-radius: 5px;
+    padding: 0 32px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+.cta-main {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.cta-sub {
+    color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
